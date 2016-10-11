@@ -23,6 +23,7 @@
   "homepage": "https://github.com/nickpeleh/ttd_telegram_bot#readme",
   "dependencies": {
     "body-parser": "^1.15.2",
-    "express": "^4.14.0"
+    "express": "^4.14.0",
+    "node-telegram-bot-api": "^0.23.3"
   }
 }
