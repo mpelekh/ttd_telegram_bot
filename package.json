@@ -2,7 +2,7 @@
   "name": "ttd_telegram_bot",
   "version": "0.0.1",
   "description": "Telegram bot for TTD",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -20,5 +20,9 @@
   "bugs": {
     "url": "https://github.com/nickpeleh/ttd_telegram_bot/issues"
   },
-  "homepage": "https://github.com/nickpeleh/ttd_telegram_bot#readme"
+  "homepage": "https://github.com/nickpeleh/ttd_telegram_bot#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0"
+  }
 }
