@@ -1,0 +1,24 @@
+{
+  "name": "ttd_telegram_bot",
+  "version": "0.0.1",
+  "description": "Telegram bot for TTD",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nickpeleh/ttd_telegram_bot.git"
+  },
+  "keywords": [
+    "ttd",
+    "telegram",
+    "bot"
+  ],
+  "author": "Nick Peleh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nickpeleh/ttd_telegram_bot/issues"
+  },
+  "homepage": "https://github.com/nickpeleh/ttd_telegram_bot#readme"
+}
