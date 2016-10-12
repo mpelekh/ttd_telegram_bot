@@ -14,7 +14,9 @@ bot.on('message', botOnMessage);
 
 router
     .post('/send', (req, res) => {
-        recipients.forEach(recipient => bot.sendMessage(recipient.chatId, JSON.stringify(req.body)));
+        const { msg } = req.body;
+
+        recipients.forEach(recipient => bot.sendMessage(recipient.chatId, msg));
 
         res
             .status(200)
