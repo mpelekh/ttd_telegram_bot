@@ -4,7 +4,7 @@
   "description": "Telegram bot for TTD",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nohup sudo forever start -c \"node --harmony\" -l bot.log -a server.js &"
   },
   "repository": {
     "type": "git",
