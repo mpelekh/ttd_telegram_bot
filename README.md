@@ -2,8 +2,9 @@
 
 May be used for broadcast notification recipients.
 
-Recipients must be added in ```config/recipients.json```.
 Bot token must be added in ```config/bot.json```.
+
+Recipiants will be added only after sending first message to bot.
 
 Created simple API to send message for broadcast notification.
 
