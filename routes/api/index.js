@@ -5,7 +5,7 @@ const
 
 module.exports = router;
 
-const PATH_TO_RECIPIANTS = './config/recipients.json';
+const PATH_TO_RECIPIENTS = './config/recipients.json';
 
 const
     TelegramBot = require('node-telegram-bot-api'),
@@ -44,7 +44,7 @@ function botOnMessage(msg) {
 
     if(!recipient) {
         recipients.push(msg.chat);
-        fs.writeFile(PATH_TO_RECIPIANTS, JSON.stringify(recipients), error => {
+        fs.writeFile(PATH_TO_RECIPIENTS, JSON.stringify(recipients), error => {
             error && console.error(new Date(), error);
         });
     }
