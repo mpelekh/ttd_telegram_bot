@@ -44,8 +44,8 @@ function botOnMessage(msg) {
 
     if(!recipient) {
         recipients.push(msg.chat);
-        fs.writeFile('./config/recipients.json', JSON.stringify(recipients), error => {
-            error && console.error(error);
+        fs.writeFile(PATH_TO_RECIPIANTS, JSON.stringify(recipients), error => {
+            error && console.error(new Date(), error);
         });
     }
 
